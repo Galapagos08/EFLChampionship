@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		05617A8D2DE721F400CF8C02 /* NetworkClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05617A872DE721F400CF8C02 /* NetworkClientProtocol.swift */; };
+		05617A8E2DE721F400CF8C02 /* URLSessionNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05617A8B2DE721F400CF8C02 /* URLSessionNetworkClient.swift */; };
+		05617A8F2DE721F400CF8C02 /* Networking.docc in Sources */ = {isa = PBXBuildFile; fileRef = 05617A892DE721F400CF8C02 /* Networking.docc */; };
+		05617A902DE721F400CF8C02 /* EndpointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05617A852DE721F400CF8C02 /* EndpointProtocol.swift */; };
+		05617A912DE721F400CF8C02 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05617A862DE721F400CF8C02 /* HTTPMethod.swift */; };
+		05617A922DE721F400CF8C02 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05617A882DE721F400CF8C02 /* NetworkError.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		05617A7B2DE721E700CF8C02 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05617A852DE721F400CF8C02 /* EndpointProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointProtocol.swift; sourceTree = "<group>"; };
+		05617A862DE721F400CF8C02 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		05617A872DE721F400CF8C02 /* NetworkClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientProtocol.swift; sourceTree = "<group>"; };
+		05617A882DE721F400CF8C02 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		05617A892DE721F400CF8C02 /* Networking.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Networking.docc; sourceTree = "<group>"; };
+		05617A8B2DE721F400CF8C02 /* URLSessionNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionNetworkClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		05617A7D2DE721E700CF8C02 /* Networking */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Networking;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		05617A782DE721E700CF8C02 /* Frameworks */ = {
@@ -32,7 +39,12 @@
 		05617A712DE721E700CF8C02 = {
 			isa = PBXGroup;
 			children = (
-				05617A7D2DE721E700CF8C02 /* Networking */,
+				05617A852DE721F400CF8C02 /* EndpointProtocol.swift */,
+				05617A862DE721F400CF8C02 /* HTTPMethod.swift */,
+				05617A872DE721F400CF8C02 /* NetworkClientProtocol.swift */,
+				05617A882DE721F400CF8C02 /* NetworkError.swift */,
+				05617A892DE721F400CF8C02 /* Networking.docc */,
+				05617A8B2DE721F400CF8C02 /* URLSessionNetworkClient.swift */,
 				05617A7C2DE721E700CF8C02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,9 +82,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				05617A7D2DE721E700CF8C02 /* Networking */,
 			);
 			name = Networking;
 			packageProductDependencies = (
@@ -130,6 +139,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05617A8D2DE721F400CF8C02 /* NetworkClientProtocol.swift in Sources */,
+				05617A8E2DE721F400CF8C02 /* URLSessionNetworkClient.swift in Sources */,
+				05617A8F2DE721F400CF8C02 /* Networking.docc in Sources */,
+				05617A902DE721F400CF8C02 /* EndpointProtocol.swift in Sources */,
+				05617A912DE721F400CF8C02 /* HTTPMethod.swift in Sources */,
+				05617A922DE721F400CF8C02 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
