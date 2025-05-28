@@ -6,11 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		056178F12DE71CA600CF8C02 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056178F02DE71CA600CF8C02 /* Networking.framework */; };
-		056178F22DE71CA600CF8C02 /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 056178F02DE71CA600CF8C02 /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		053E34852DE5BCA000DDF5A3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,20 +22,6 @@
 			remoteInfo = EFLChampionship;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		056178F32DE71CA600CF8C02 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				056178F22DE71CA600CF8C02 /* Networking.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		053E34772DE5BC9E00DDF5A3 /* EFLChampionship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFLChampionship.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				056178F12DE71CA600CF8C02 /* Networking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +114,6 @@
 				053E34732DE5BC9E00DDF5A3 /* Sources */,
 				053E34742DE5BC9E00DDF5A3 /* Frameworks */,
 				053E34752DE5BC9E00DDF5A3 /* Resources */,
-				056178F32DE71CA600CF8C02 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
